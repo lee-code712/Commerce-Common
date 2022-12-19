@@ -19,8 +19,8 @@ public class HttpConnectionUtils {
 	private static Map<String, String> baseUrls;
 	
 	static {
-		String host = "localhost";
-//		String host = "192.168.56.104";
+//		String host = "localhost";
+		String host = "192.168.56.104";
 		
 		baseUrls = new HashMap<String, String>();
 		baseUrls.put("API-G", "http://" + host + ":9080");
