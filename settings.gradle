@@ -8,4 +8,4 @@
  */
 
 rootProject.name = 'Commerce-Common'
-include('lib')
+//include('lib')
