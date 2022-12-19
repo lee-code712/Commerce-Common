@@ -23,8 +23,8 @@ dependencies {
 	implementation group: 'io.springfox', name: 'springfox-swagger-ui', version: '2.9.2'
 	implementation group: 'io.swagger.core.v3', name: 'swagger-core', version: '2.1.10'
 	
-	compileOnly("org.projectlombok:lombok:1.18.10")
-	annotationProcessor("org.projectlombok:lombok:1.18.10")
+	compileOnly("org.projectlombok:lombok:1.18.20")
+	annotationProcessor("org.projectlombok:lombok:1.18.20")
 	
 	implementation group: 'com.googlecode.json-simple', name: 'json-simple', version: '1.1.1'
 	
