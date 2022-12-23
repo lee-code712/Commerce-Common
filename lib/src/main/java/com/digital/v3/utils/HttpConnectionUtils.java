@@ -18,17 +18,14 @@ public class HttpConnectionUtils {
 	
 	private static Map<String, String> baseUrls;
 	
-	static {
-//		String host = "localhost";
-		String host = "192.168.56.104";
-		
+	static {		
 		baseUrls = new HashMap<String, String>();
-		baseUrls.put("API-G", "http://" + host + ":9080");
-		baseUrls.put("Auth", "http://" + host + ":9081");
-		baseUrls.put("Inventory", "http://" + host + ":9082");
-		baseUrls.put("Product", "http://" + host + ":9083");
-		baseUrls.put("Person", "http://" + host + ":9084");
-		baseUrls.put("Order", "http://" + host + ":9085");
+		baseUrls.put("API-G", "http://commerce.yr.gateway:8080");
+		baseUrls.put("Auth", "http://commerce.yr.auth:8080");
+		baseUrls.put("Inventory", "http://commerce.yr.inventory:8080");
+		baseUrls.put("Product", "http://commerce.yr.product:8080");
+		baseUrls.put("Person", "http://commerce.yr.person:8080");
+		baseUrls.put("Order", "http://commerce.yr.order:8080");
 	}
 	
 	public static String requestGET (String baseUrlKey, String targetUrl) 
