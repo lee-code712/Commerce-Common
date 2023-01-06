@@ -20,12 +20,12 @@ public class HttpConnectionUtils {
 	
 	static {		
 		baseUrls = new HashMap<String, String>();
-		baseUrls.put("API-G", "http://commerce-yr-gateway");
-		baseUrls.put("Auth", "http://commerce-yr-auth");
-		baseUrls.put("Inventory", "http://commerce-yr-inventory");
-		baseUrls.put("Product", "http://commerce-yr-product");
-		baseUrls.put("Person", "http://commerce-yr-person");
-		baseUrls.put("Order", "http://commerce-yr-order");
+		baseUrls.put("API-G", "http://commerce-yr-gateway-svc");
+		baseUrls.put("Auth", "http://commerce-yr-auth-svc");
+		baseUrls.put("Inventory", "http://commerce-yr-inventory-svc");
+		baseUrls.put("Product", "http://commerce-yr-product-svc");
+		baseUrls.put("Person", "http://commerce-yr-person-svc");
+		baseUrls.put("Order", "http://commerce-yr-order-svc");
 	}
 	
 	public static String requestGET (String baseUrlKey, String targetUrl) 
